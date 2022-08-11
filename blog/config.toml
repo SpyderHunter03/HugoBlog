@@ -1,0 +1,4 @@
+baseURL = 'http://blog.tristangoetz.me/'
+languageCode = 'en-us'
+title = 'Tristan Goetz Blog'
+theme = 'ananke'
