@@ -1,0 +1,3 @@
+[submodule "blog/themes/NewBee"]
+	path = blog/themes/NewBee
+	url = https://github.com/SpyderHunter03/NewBee.git
