@@ -1,5 +1,5 @@
 ######################## default configuration ####################
-baseURL = "http://demo.themefisher.com/nebula-hugo/"
+baseURL = "https://calm-pebble-0ae4e640f.1.azurestaticapps.net/"
 title = "Blog"
 theme = "nebula"
 languageName = "En"
