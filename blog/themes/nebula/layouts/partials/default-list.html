@@ -1,0 +1,35 @@
+<!-- grid style -->
+
+{{ $.Scratch.Set "count" 1 }} <!-- set global variable "count" to 1 -->
+{{ range (.Site.RegularPages.GroupByDate "2006") }} <!-- loop over blog posts grouped by year -->
+  {{ if (gt .Key 2000) }} <!-- if the year (.Key) is greater than 2000 -->
+    {{ $.Scratch.Set "count" 1 }} <!-- set global variable "count" back to 1 -->
+    {{ range .Pages }} <!-- loop over blog posts in the year -->
+      {{ if (eq ($.Scratch.Get "count") 1) }} <!-- if the global variable "count" is equal to 1 -->
+        {{ $.Scratch.Set "count" 0 }}  <!-- set global variable "count" to 0 -->
+        <h3 class="h4 sticky-top bg-black py-4">Showing posts from {{ .Date.Format "2006" }}</h3>
+      {{ end }}
+    {{ end }}
+
+    <div class="row">
+      {{ range .Pages }} <!-- loop over blog posts in the year -->
+      <div class="col-sm-6 mb-4">
+        <div class="card">
+          <!-- display image if there is an image -->
+          {{if .Params.Image}}<img src="{{ .Params.Image | absURL }}" alt="{{ .Title }}" class="card-img-top">{{ end }}
+          <div class="card-body">
+            <!-- display categories if there is any -->
+            <h4 class="h5 mb-3 {{delimit .Params.categories ` `}}"><a href="{{ .Permalink }}"
+                class="post-title">{{ .Title }}</a></h4>
+            <div style="padding-left: 20px;">
+              <p class="text-light mb-2">{{ .PublishDate.Format "02 January" }}</p>
+              <a href="{{ .Permalink }}" class="btn btn-link">read more <i class="ti-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      {{ end }}
+    </div>
+  {{ end }}
+{{ end }}
+<!-- /grid style -->
