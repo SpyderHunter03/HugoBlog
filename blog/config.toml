@@ -1,6 +1,6 @@
 ######################## default configuration ####################
 baseURL = "https://calm-pebble-0ae4e640f.1.azurestaticapps.net/"
-title = "Blog"
+title = "Blog - TRG"
 theme = "nebula"
 languageName = "En"
 languageCode = "en-us"
@@ -45,21 +45,21 @@ name = "Contact"
 URL = "contact"
 weight = 3
 
-[[menu.main]]
-name = "Privacy Policy"
-URL = "privacy-policy"
-weight = 4
+#[[menu.main]]
+#name = "Privacy Policy"
+#URL = "privacy-policy"
+#weight = 4
 
 
 #################### default parameters ################################
 [params]
 # Meta data
-description = "This is meta description"
+description = "Christian, Husband, Father, Coder, Disc Golfer"
 author = "Tristan Goetz"
 # sidebar portrait
 portrait = "images/author.jpg"
 # sidebar bio
-bio = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Egestas donec nullam cras vitae facilisis vehicula in. Convallis vel, justo sem nunc, lorem amet rhoncus."
+bio = "Christian, Husband, Father, Coder, Disc Golfer"
 # copyright
 copyright = "Design By [Themefisher](https://themefisher.com/) Develop By [Gethugothemes](https://gethugothemes.com/)"
 
@@ -70,27 +70,29 @@ preloader = "" # use jpg, png, svg or gif format.
 
 
 ############################# social site ########################
+# themify icons : https://themify.me/themify-icons
+
 [[params.social]]
 title = "facebook"
-icon = "ti-facebook" # themify icon : https://themify.me/themify-icons
-link = "#"
+icon = "ti-facebook"
+link = "https://www.facebook.com/tristan.r.goetz"
 
 [[params.social]]
 title = "twitter"
-icon = "ti-twitter-alt" # themify icon : https://themify.me/themify-icons
-link = "#"
+icon = "ti-twitter-alt"
+link = "https://twitter.com/TGoetzDiscGolf"
 
 [[params.social]]
 title = "instagram"
-icon = "ti-instagram" # themify icon : https://themify.me/themify-icons
-link = "#"
+icon = "ti-instagram"
+link = "https://www.instagram.com/tristangoetzdiscgolf/"
 
 [[params.social]]
 title = "github"
-icon = "ti-github" # themify icon : https://themify.me/themify-icons
-link = "#"
+icon = "ti-github"
+link = "https://github.com/SpyderHunter03"
 
 [[params.social]]
 title = "linkedin"
-icon = "ti-linkedin" # themify icon : https://themify.me/themify-icons
-link = "#"
+icon = "ti-linkedin"
+link = "https://www.linkedin.com/in/tristan-goetz/"
