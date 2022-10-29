@@ -1,5 +1,5 @@
 ######################## default configuration ####################
-baseURL = "https://calm-pebble-0ae4e640f.1.azurestaticapps.net/"
+baseURL = "https://blog.tristangoetz.me"
 title = "Blog - TRG"
 theme = "nebula"
 languageName = "En"
