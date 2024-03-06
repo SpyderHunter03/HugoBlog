@@ -22,7 +22,7 @@ jobs:
           extended: true
 
       - name: Build
-        run: hugo --minify
+        run: cd HugoBlog/HugoBlog && hugo --minify
 
       - name: Deploy to Server
         if: github.ref == 'refs/heads/main'
