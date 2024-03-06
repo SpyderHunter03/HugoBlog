@@ -28,4 +28,4 @@ jobs:
         if: github.ref == 'refs/heads/main'
         run: |
           rm -rf /var/www/html/*
-          cp -r site/public/* /var/www/html/
+          cp -r blog/public/* /var/www/html/
