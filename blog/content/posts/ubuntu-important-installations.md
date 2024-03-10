@@ -88,7 +88,15 @@ Now that we have MySql setup on the server, and things internal to the server ca
 
 Now that we have allowed the outside world to access the port for MySql but now we got to tell MySql to allow traffic from other IP addresses.  So first we need to go change the configuration file:
 
-`sudo `
+`sudo nano /etc/mysql/mysql.conf.d/mysqld.cnf`
+
+In that file, you will find a line that sets the bind-address to 127.0.0.1.  You need to change that line to 0.0.0.0:
+
+`bind-address = 0.0.0.0`
+
+After changing the MySql configuration, you need to restart the service:
+
+`sudo systemctl restart mysql`
 
 # Conclusion
 
