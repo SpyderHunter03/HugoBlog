@@ -50,6 +50,7 @@ You can run through all the parameters with Yes reponses.  Here are some things 
 Next we want to create a new user in the system that will do all our work for us.  So we can log into the system and first thing we are going to do is move the root user authentication back to what it should be:
 
 `mysql -u root -p`
+
 `mysql> ALTER USER 'root'@'localhost' IDENTIFIED WITH auth_socket;`
 
 Next we can create the user:
@@ -76,6 +77,7 @@ Here are the brief explanations of the variables above:
 Lastly make sure you flush the permissions:
 
 `mysql> FLUSH PRIVILEGES;`
+
 `mysql> exit;`
 
 ## Allowing Remote Access To Server
