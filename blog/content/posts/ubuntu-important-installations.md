@@ -78,7 +78,13 @@ Lastly make sure you flush the permissions:
 
 ## Allowing Remote Access To Server
 
-### TODO: FILL THIS IN
+Now that we have MySql setup on the server, and things internal to the server can access the server like applications and such, but what if we want to remotely monitor the server from another computer, we need to allow access into the computer.  So first we need to open the firewall:
+
+`sudo ufw allow mysql`
+
+Now that we have allowed the outside world to access the port for MySql but now we got to tell MySql to allow traffic from other IP addresses.  So first we need to go change the configuration file:
+
+`sudo `
 
 # Conclusion
 
