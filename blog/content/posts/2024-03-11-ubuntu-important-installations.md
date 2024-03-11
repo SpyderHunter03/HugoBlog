@@ -1,6 +1,6 @@
 ---
 title: "Ubuntu 20.04 LTS Installations"
-date: 2024-03-09T21:53:00-04:00
+date: 2024-03-11T21:53:00-04:00
 image: "images/post/ubuntu20.04lts.png"
 description: "Important Installations on Ubuntu"
 categories: ["code", "ubuntu20.04", "proxmox"]
