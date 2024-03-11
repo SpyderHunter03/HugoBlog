@@ -170,7 +170,7 @@ The first command installs the SDK for building and the second command installs 
 
 Running a DotNet application as a service is fairly simple, in that we just have to create a service file and put it with the other services to start it.  Here is an example of a service file I am using for a Discord Bot run on my server:
 
-```
+```ini
 [Unit]
 Description=DiscGolfBot Discord Bot
 
