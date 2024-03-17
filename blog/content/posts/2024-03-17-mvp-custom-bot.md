@@ -32,7 +32,7 @@ This may seem like a tall task, but I have already made a large portion of the a
 
 Here is a picture of the way the Discord bot currently outputs the custom files:
 
-![MVP Custom Bot Example](../../static/images/post/mvp-custom-checker-example.png)
+![MVP Custom Bot Example](/images/post/mvp-custom-checker-example.png)
 
 # Plan for this series of posts
 
