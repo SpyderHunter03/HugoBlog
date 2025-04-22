@@ -68,6 +68,9 @@ copyright = "Design By [Themefisher](https://themefisher.com/) Develop By [Gethu
 enable = false
 preloader = "" # use jpg, png, svg or gif format.
 
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
 
 ############################# social site ########################
 # themify icons : https://themify.me/themify-icons
