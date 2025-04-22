@@ -4,8 +4,6 @@ title = "Blog - TRG"
 theme = "nebula"
 languageName = "En"
 languageCode = "en-us"
-# disqus short name
-disqusShortname = "" # get your shortname form here : https://disqus.com
 
 ############################# output ##############################
 [outputs]
