@@ -37,7 +37,7 @@ MySql can be installed via either docker if you are going to use it in a docker-
 
 `sudo apt install mysql-server -y`
 
-This will install Docker from apt using the root user.  Next thing that should be run is the mysql secure installation script, however first we need to make sure it doesn't break our system when we go to install it.  So first we must log into MySql and change the way the root user authenticates with MySql:
+This will install MySql from apt using the root user.  Next thing that should be run is the mysql secure installation script, however first we need to make sure it doesn't break our system when we go to install it.  So first we must log into MySql and change the way the root user authenticates with MySql:
 
 `sudo mysql`
 
